@@ -32,7 +32,7 @@ export const ArtworkFilterBackHeader: React.FC<ArtworkFilterBackHeaderProps> = (
           onPress={onLeftButtonPress}
           hitSlop={{ top: space("1"), bottom: space("1"), left: space("1"), right: space("1") }}
           accessibilityLabel="Header back button"
-          style={{ paddingRight: space(0.5) }}
+          style={{ paddingRight: space("0.5") }}
         >
           <ArrowLeftIcon fill="black100" />
         </TouchableOpacity>
