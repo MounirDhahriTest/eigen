@@ -47,7 +47,6 @@ const GestureHandlerProvider = (props: { children?: React.ReactNode }) => (
 )
 
 const RelayDefaultEnvProvider = (props: { children?: React.ReactNode }) => (
-  // @ts-expect-error
   <RelayEnvironmentProvider environment={defaultEnvironment} {...props} />
 )
 
