@@ -406,8 +406,8 @@ const InfiniteScrollArtworksGrid: React.FC<Props & PrivateProps> = ({
 
         {!autoFetch && !!hasMore() && (
           <Button
-            mt={5}
-            mb={3}
+            mt="6"
+            mb="4"
             variant="fillGray"
             size="large"
             block
@@ -418,7 +418,7 @@ const InfiniteScrollArtworksGrid: React.FC<Props & PrivateProps> = ({
           </Button>
         )}
         {!!showLoadingSpinner && !!localIsLoading && (
-          <Flex mt={2} mb={4} flexDirection="row" justifyContent="center">
+          <Flex mt="2" mb={4} flexDirection="row" justifyContent="center">
             <Spinner />
           </Flex>
         )}
