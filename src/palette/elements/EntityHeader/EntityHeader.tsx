@@ -65,7 +65,7 @@ export const EntityHeader: React.FC<EntityHeaderProps> = ({
         <Flex flexDirection="row" justifyContent="flex-start" flexGrow={1} alignItems="center">
           {headerName}
 
-          <Text variant="sm" ml={0.3}>
+          <Text variant="sm" ml="0.5">
             {bullet}
           </Text>
 

@@ -428,8 +428,8 @@ const InfiniteScrollArtworksGrid: React.FC<Props & PrivateProps> = ({
         <Flex
           alignItems="center"
           justifyContent="center"
-          p="3"
-          pb="9"
+          p="4"
+          pb="6"
           style={{ opacity: localIsLoading && hasMore() ? 1 : 0 }}
         >
           {!!autoFetch && (

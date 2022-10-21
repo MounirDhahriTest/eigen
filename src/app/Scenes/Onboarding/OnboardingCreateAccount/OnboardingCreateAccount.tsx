@@ -279,7 +279,7 @@ export const OnboardingCreateAccountButton: React.FC<OnboardingCreateAccountButt
             block
             haptic="impactMedium"
             mb={1}
-            mt={1.5}
+            mt="2"
             variant="outline"
             testID="loginButton"
           >

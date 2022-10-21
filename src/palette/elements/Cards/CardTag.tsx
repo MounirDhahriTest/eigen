@@ -35,7 +35,7 @@ export const CardTag: React.FC<CardTagProps> = ({
         },
       ]}
     >
-      <Text variant="xs" px={0.5} py={0.3} color={textColor}>
+      <Text variant="xs" px={0.5} py={0.5} color={textColor}>
         {text}
       </Text>
     </View>

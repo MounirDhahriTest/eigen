@@ -13,7 +13,7 @@ export const ArtworkSubmissionStatusFAQ: React.FC = () => {
     <ScrollView>
       <Box pt={safeAreaInsets.top} pb={safeAreaInsets.bottom} px={2}>
         <Box my={3}>
-          <Join separator={<Spacer my={1.5} />}>
+          <Join separator={<Spacer my="2" />}>
             <Text variant="lg-display">Submission Status</Text>
 
             <Join separator={<Spacer my={0} />}>
