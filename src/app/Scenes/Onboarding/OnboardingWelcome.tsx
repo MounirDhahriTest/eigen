@@ -126,7 +126,7 @@ export const OnboardingWelcome: React.FC<OnboardingWelcomeProps> = ({ navigation
           style={[
             {
               flex: 1,
-              paddingTop: space(2),
+              paddingTop: space("2"),
               justifyContent: "flex-end",
             },
             appearAnim,

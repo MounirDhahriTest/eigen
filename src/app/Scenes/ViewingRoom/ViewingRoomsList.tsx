@@ -154,7 +154,7 @@ export const ViewingRoomsList = () => {
             onEndReached={handleLoadMore}
             onEndReachedThreshold={1}
             ListFooterComponent={() =>
-              hasNext ? <LoadingMorePlaceholder /> : <Flex height={space(6)} />
+              hasNext ? <LoadingMorePlaceholder /> : <Flex height={space("6")} />
             }
           />
         </Flex>

@@ -19,7 +19,7 @@ import {
 } from "@artsy/palette-tokens/dist/typography/v3"
 
 type SpacingUnitV3 = `${SpacingUnitV3Numbers}`
-export type SpacingUnit = SpacingUnitV3
+export type SpacingUnit = SpacingUnitV3 | (number & {})
 export type Color =
   | ColorV3BeforeDevPurple
   | "devpurple"
@@ -213,7 +213,7 @@ const color =
 const space =
   (theme: ThemeType) =>
   (spaceName: SpacingUnitV3): number =>
-    theme.space[spaceName as SpacingUnitV3]
+    theme.space[spaceName]
 
 export const useTheme = () => {
   const theme: ThemeType = useContext(ThemeContext)

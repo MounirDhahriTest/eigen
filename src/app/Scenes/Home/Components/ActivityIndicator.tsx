@@ -28,10 +28,10 @@ export const ActivityIndicator: React.FC<ActivityIndicatorProps> = ({ hasNotific
           accessibilityLabel="Activity"
           onPress={navigateToActivityPanel}
           hitSlop={{
-            top: space(1),
-            bottom: space(1),
-            left: space(1),
-            right: space(1),
+            top: space("1"),
+            bottom: space("1"),
+            left: space("1"),
+            right: space("1"),
           }}
         >
           <BellIcon height={24} width={24} />

@@ -17,7 +17,7 @@ const CreditCardDetails: React.FC<OrderDetailsPaymentProps> = ({ order }) => {
             <Box flexGrow={1}>
               <CreditCardIcon
                 type={creditCard?.brand as any}
-                style={{ marginRight: space(1) }}
+                style={{ marginRight: space("1") }}
                 width="17"
               />
             </Box>

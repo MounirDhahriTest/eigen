@@ -19,9 +19,9 @@ export const AboveTheFoldPlaceholder: React.FC<{ artworkID?: string }> = ({ artw
       <Flex px={2} flex={1}>
         {/* save/share buttons */}
         <Flex flexDirection="row" justifyContent="center" alignItems="center" height={30}>
-          <PlaceholderBox width={50} height={15} marginHorizontal={space(1)} />
-          <PlaceholderBox width={50} height={15} marginHorizontal={space(1)} />
-          <PlaceholderBox width={50} height={15} marginHorizontal={space(1)} />
+          <PlaceholderBox width={50} height={15} marginHorizontal={space("1")} />
+          <PlaceholderBox width={50} height={15} marginHorizontal={space("1")} />
+          <PlaceholderBox width={50} height={15} marginHorizontal={space("1")} />
         </Flex>
         <Spacer mb={4} />
 

@@ -210,7 +210,7 @@ const MyCollectionZeroState: React.FC = () => {
           resizeMode="contain"
           style={{
             alignSelf: "center",
-            marginVertical: space(2),
+            marginVertical: space("2"),
           }}
         />
       }

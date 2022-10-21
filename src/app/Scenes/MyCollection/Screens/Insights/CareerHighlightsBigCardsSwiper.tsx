@@ -144,8 +144,8 @@ export const CareerHighlightsBigCardsSwiper: React.FC<{
                 key={key}
                 style={{
                   height: 2,
-                  width: barWidth - space(1),
-                  marginRight: space(1),
+                  width: barWidth - space("1"),
+                  marginRight: space("1"),
                   borderRadius: 2,
                   backgroundColor: color("black100"),
                   opacity: useSpringValue(sliderState.currentPage === index ? 1 : 0.2),
