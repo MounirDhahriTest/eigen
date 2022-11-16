@@ -161,11 +161,11 @@ export const features = defineFeatures({
     showInAdminMenu: true,
     echoFlagKey: "AREnableAuctionShareButton",
   },
-  AREnableNewImage: {
+  AREnableNewOpaqueImageComponent: {
     readyForRelease: true,
     description: "Enable New Image Component",
     showInAdminMenu: true,
-    echoFlagKey: "AREnableNewImage",
+    echoFlagKey: "AREnableNewOpaqueImageComponent",
   },
   AREnableConversationalBuyNow: {
     readyForRelease: true,
@@ -221,6 +221,11 @@ export const features = defineFeatures({
   },
   ARArtworkRedesingPhase2: {
     description: "Enable redesigned artwork page (phase 2)",
+    showInAdminMenu: true,
+    readyForRelease: false,
+  },
+  ARRecentPriceRanges: {
+    description: "Enable the recent price ranges",
     showInAdminMenu: true,
     readyForRelease: false,
   },

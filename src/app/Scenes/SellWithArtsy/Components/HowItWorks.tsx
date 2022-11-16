@@ -1,15 +1,5 @@
-import {
-  Box,
-  Flex,
-  IconProps,
-  ImageIcon,
-  Join,
-  Payment2Icon,
-  Spacer,
-  Tag2Icon,
-  Text,
-} from "palette"
-import { TextContainer } from "./TextContainer"
+import { StepWithImage } from "app/Components/StepWithImage/StepWithImage"
+import { Box, ImageIcon, Join, Payment2Icon, Spacer, Tag2Icon, Text } from "palette"
 
 const STEPS = [
   {
