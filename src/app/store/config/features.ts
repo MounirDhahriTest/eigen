@@ -215,7 +215,8 @@ export const features = defineFeatures({
   ARRecentPriceRanges: {
     description: "Enable the recent price ranges",
     showInAdminMenu: true,
-    readyForRelease: false,
+    readyForRelease: true,
+    echoFlagKey: "ARRecentPriceRanges",
   },
   AREnablePanOnStaticHeader: {
     description: "Enable Scroll/Pan on StaticHeader",
